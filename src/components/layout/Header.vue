@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="navbar-brand mx-auto">Project-1</a></li>
+                    <li class="nav-item"><a class="navbar-brand mx-auto"><b>AQ</b>imos</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
                     <li class="nav-item dropdown">
