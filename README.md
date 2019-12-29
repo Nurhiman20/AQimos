@@ -1,6 +1,7 @@
-# project-2
+<<<<<<< HEAD
+# AQimos
 
-> A Vue.js project
+> AQimos - Air Quality Monitoring System
 
 ## Build Setup
 
