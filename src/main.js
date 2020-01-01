@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
+import axios from 'axios';
 
 // import for the chart
 import Highcharts from 'highcharts';
@@ -26,6 +27,8 @@ const router = new VueRouter({
   mode: 'history',
   routes,
 });
+
+axios.defaults.baseURL = "http://3.0.87.5:4000";
 
 new Vue({
   el: '#app',

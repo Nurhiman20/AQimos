@@ -2,7 +2,7 @@ export default {
     parameters1: [
         {
             name: 'Temperature',
-            series: [36],
+            series: [],
             valueSuffix: '°C',
             stops: [
                 [0.34, "#76CE0A"], // green
@@ -12,7 +12,7 @@ export default {
         }, 
         {
             name: 'Humidity',
-            series: [10],
+            series: [],
             valueSuffix: '%',
             stops: [
                 [0.2, "#E52D0B"], // red
@@ -22,7 +22,7 @@ export default {
         },
         {
             name: 'Battery Power',
-            series: [100],
+            series: [],
             valueSuffix: '%',
             stops: [
                 [0.15, "#E52D0B"], // red
@@ -63,12 +63,10 @@ export default {
     ],
     parameters3: [
         {
-            name: 'ISPU',
-            value: 50
+            name: 'ISPU'
         },
         {
-            name: 'ISPU Category',
-            value: 'Baik'
+            name: 'ISPU Category'
         }
     ],
     chartDatas: [
