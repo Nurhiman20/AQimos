@@ -1,7 +1,7 @@
 export default {
     parameters1: [
         {
-            name: 'Temperature',
+            name: 'Temperatur',
             series: [],
             valueSuffix: '°C',
             stops: [
@@ -11,7 +11,7 @@ export default {
             ]
         }, 
         {
-            name: 'Humidity',
+            name: 'Kelembaban',
             series: [],
             valueSuffix: '%',
             stops: [
@@ -21,7 +21,7 @@ export default {
             ]
         },
         {
-            name: 'Battery Power',
+            name: 'Daya Baterai',
             series: [],
             valueSuffix: '%',
             stops: [
@@ -33,47 +33,39 @@ export default {
     ],
     parameters2: [
         {
-            name: 'Wind Velocity',
+            name: 'Kecepatan Angin',
             value: 0,
             valueSuffix: 'mph',
             icon: 'fas fa-wind',
             color: 'lightseagreen'
         },
         {
-            name: 'Wind Direction',
+            name: 'Arah Angin',
             value: 114,
             valueSuffix: '°',
             icon: 'fas fa-compass',
             color: 'lightsalmon'
         },
         {
-            name: 'Rain Fall',
+            name: 'Curah Hujan',
             value: 0,
             valueSuffix: 'mL',
             icon: 'fas fa-cloud-rain',
             color: 'lightskyblue'
         },
         {
-            name: 'Light Intensity',
+            name: 'Intensitas Cahaya',
             value: 779,
             valueSuffix: null,
             icon: 'far fa-sun', 
             color: 'gold'
         }
     ],
-    parameters3: [
-        {
-            name: 'ISPU'
-        },
-        {
-            name: 'ISPU Category'
-        }
-    ],
     chartDatas: [
     { 
-        name: 'NO₂ Concentration',
-        chartTitle: 'NO₂ Concentration', 
-        yAxisTitle: 'Concentration (μg/Nm³)', 
+        name: 'Konsentrasi NO₂',
+        chartTitle: 'Konsentrasi NO₂', 
+        yAxisTitle: 'Konsentrasi (μg/Nm³)', 
         valueSuffix: 'μg/Nm³', 
         value: [1200, 1750, 2200, 2500, 4100, 3700, 3800, 5500, 2430, 2800],
         colors: ['#065D9B'],
@@ -82,9 +74,9 @@ export default {
         ispuCat: 'Baik'
     },
     { 
-        name: 'PM₁₀ Concentration',
-        chartTitle: 'PM₁₀ Concentration', 
-        yAxisTitle: 'Concentration (μg/Nm³)', 
+        name: 'Konsentrasi PM₁₀',
+        chartTitle: 'Konsentrasi PM₁₀', 
+        yAxisTitle: 'Konsentrasi (μg/Nm³)', 
         valueSuffix: 'μg/Nm3', 
         value: [1200, 1750, 2200, 2500, 4100, 3700, 3800, 5500, 2430, 2800],
         colors: ['#BE0073'],
@@ -93,9 +85,9 @@ export default {
         ispuCat: 'Baik'
     },
     { 
-        name: 'CO Concentration',
-        chartTitle: 'CO Concentration', 
-        yAxisTitle: 'Concentration (μg/Nm³)', 
+        name: 'Konsentrasi CO',
+        chartTitle: 'Konsentrasi CO', 
+        yAxisTitle: 'Konsentrasi (μg/Nm³)', 
         valueSuffix: 'μg/Nm3', 
         value: [1200, 1750, 2200, 2500, 4100, 3700, 3800, 5500, 2430, 2800],
         colors: ['#9CE200'],
@@ -104,9 +96,9 @@ export default {
         ispuCat: 'Baik'
     },
     { 
-        name: 'SO₂ Concentration',
-        chartTitle: 'SO₂ Concentration', 
-        yAxisTitle: 'Concentration (μg/Nm³)', 
+        name: 'Konsentrasi SO₂',
+        chartTitle: 'Konsentrasi SO₂', 
+        yAxisTitle: 'Konsentrasi (μg/Nm³)', 
         valueSuffix: 'μg/Nm3', 
         value: [1200, 1750, 2200, 2500, 4100, 3700, 3800, 5500, 2430, 2800],
         colors: ['#F18800'],
@@ -115,9 +107,9 @@ export default {
         ispuCat: 'Baik'
     },
     { 
-        name: 'O₃ Concentration',
-        chartTitle: 'O₃ Concentration', 
-        yAxisTitle: 'Concentration (μg/Nm³)', 
+        name: 'Konsentrasi O₃',
+        chartTitle: 'Konsentrasi O₃', 
+        yAxisTitle: 'Konsentrasi (μg/Nm³)', 
         valueSuffix: 'μg/Nm3', 
         value: [1200, 1750, 2200, 2500, 4100, 3700, 3800, 5500, 2430, 2800],
         colors: ['#023960'],

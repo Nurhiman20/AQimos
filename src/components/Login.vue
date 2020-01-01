@@ -16,10 +16,10 @@
                     <img src="../assets/logoipb.png" alt="">
                 </div>
                 <div class="col-md-4 formLogin vh-100">
-                    <h5>Hi, welcome back!</h5>
-                    <p class="text-center">Enter your e-mail and password to log in to AQimos</p>
+                    <h5>Hai, selamat datang!</h5>
+                    <p class="text-center">Masukkan email dan kata sandi untuk masuk ke dalam AQimos</p>
                     <app-login></app-login>
-                    <a href=""><p class="text-center">Forgot your password?</p></a>
+                    <a href=""><p class="text-center">Lupa kata sandi?</p></a>
                     <p class="text-center" id="copyright">© 2020 AQimos. All Rights Reserved.</p>
                 </div>
             </div>

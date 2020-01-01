@@ -2,10 +2,10 @@
     <div>
         <div class="col-md-12 card card-sensor shadow">
             <div class="row">
-                <div class="col-md-4 parameter text-center">
+                <div class="col-md-3 parameter text-center">
                     <div class="icon-sensor"><i :class="[parameter.icon]" :style="iconStyle"></i></div>
                 </div>
-                <div class="col-md-8 paramValue text-center">
+                <div class="col-md-9 paramValue text-center">
                     <h6>{{ parameter.name }}</h6>
                     <b>{{ parameter.value }} {{parameter.valueSuffix}}</b>
                 </div>

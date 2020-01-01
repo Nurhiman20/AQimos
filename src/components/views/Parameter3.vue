@@ -17,7 +17,7 @@
                 <div class="card shadow" :style="borderStyle">
                     <div class="row">
                         <div class="col-md-12 parameter text-center">
-                            <h6>ISPU Category</h6>
+                            <h6>Kategori ISPU</h6>
                         </div>
                         <div class="col-md-12 paramValue text-center">
                             <b>{{ chartData.ispuCat }}</b>

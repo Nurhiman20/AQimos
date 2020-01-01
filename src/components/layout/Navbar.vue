@@ -21,7 +21,7 @@
                                     class="nav-item nav-link text-center"
                                     activeClass="active">
                                         <i class="fas fa-users"></i>
-                                        User
+                                        Pengguna
                         </router-link>
                     </div>
                 </div>
